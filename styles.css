@@ -1,0 +1,113 @@
+html,
+body {
+  background-color: #fff;
+  background-size: 100% 100%;
+  height: 100%;
+  font-size: 1rem;
+}
+.img-responsive {
+  width: 75%;
+  float: left;
+}
+.link {
+  text-decoration: underline;
+  text-decoration-color: blue;
+  text-shadow: cornflowerblue;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+a:hover {
+  text-decoration: underline;
+  font-size: 2rem;
+  transition: 10ms;
+}
+a:focus {
+  color: rgb(14, 14, 16);
+}
+a:active {
+  color: red;
+}
+a:visited {
+  color: rgb(188, 2, 135);
+}
+.container {
+  width: 100%;
+  margin: 1rem auto;
+  padding: 1rem;
+  background-color: #9da3a388;
+}
+.glyphicon {
+  font-size: 1.5rem;
+  color: blue;
+}
+.description {
+  width: 25%;
+  height: 35rem;
+  padding-left: 0.8rem;
+  font-size: 2rem;
+  background-color: #9da3a3b1;
+  color: darkblue;
+  border: 1px solid #121111db;
+  border-radius: 0.4rem;
+  box-sizing: border-box;
+  float: right;
+  overflow: auto;
+}
+.title-page {
+  margin-top: 1rem;
+  padding: 1rem 1rem;
+  width: 12rem;
+  color: darkblue;
+  font-size: 1.5rem;
+}
+.showcase:hover {
+  cursor: pointer;
+  box-shadow: 1px -2px 5px gray;
+  border-top: 3px solid green;
+  transform: scale(1.05);
+  z-index: 3;
+}
+.showcase {
+  position: relative;
+  margin-top: 0.8rem;
+  padding: 1rem;
+  max-height: 30rem;
+  border: 1px solid #c6c6c6;
+  border-radius: 0.3rem;
+  box-sizing: border-box;
+  background: white;
+  transition: transform 0.3s ease-in-out 0.5s;
+  overflow: auto;
+}
+.prices {
+  padding: 0.6rem 0;
+  border-top: 1px dotted;
+  border-bottom: 1px dotted;
+}
+.price {
+  margin-bottom: 0.8rem;
+  padding-left: 1rem;
+  color: darkred;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: line-through;
+}
+.promotional_price {
+  padding-left: 1rem;
+  color: green;
+  font-size: 1.4rem;
+  font-weight: bolder;
+}
+#go-top {
+  position: fixed;
+  top: calc(50% - 1.1rem);
+  right: 0;
+  border: 1px solid black;
+  background: #9da3a3c9;
+  padding: 0.5rem 1.2rem;
+  border-top-left-radius: 0.3rem;
+  border-bottom-left-radius: 0.3rem;
+  z-index: 3;
+}
+a {
+  color: blue;
+}
